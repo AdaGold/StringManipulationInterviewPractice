@@ -3,7 +3,7 @@ In this assignment, you'll design and implement some of the string manipulation 
 Remember that a string is an array of characters. Algorithms that worked on restricted arrays will work on strings as well.
 
 ## Exercises
-Design and implement a method for each of the following. Share and explain the time and space complexity for each method.
+Design and implement a method for each of the following. Do not use Ruby provided functionality for `.reverse` and `.reverse!`. You may use `.length`. Share and explain the time and space complexity for each method.
 1. Design and implement a method to reverse a string in place. 
    - e.g. original string = "Lovelace"
    - reversed string = "ecalevoL"
