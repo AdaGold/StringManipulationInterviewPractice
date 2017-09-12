@@ -1,0 +1,18 @@
+# String Manipulation Practice Exercises
+Congratulations! You're submitting your assignment.
+
+## Comprehension Questions
+What is the time and space complexity for each method you implemented? Provide justification.
+
+|  Question 	|  Answer 	|
+|---	|---	|
+|  What is the time complexity of the string_reverse method? Provide justification.	|   	|
+|  What is the space complexity of the string_reverse method? Provide justification.	|   	|
+|  What is the time complexity of the reverse_words method? Provide justification.	|   	|
+|  What is the space complexity of the reverse_words method? Provide justification.	|   	|
+|  What is the time complexity of the reverse_sentence method? Provide justification.	|   	|
+|  What is the space complexity of the reverse_sentence method? Provide justification.	|   	|
+|  What is the time complexity of the palindrome_check method? Provide justification.	|   	|
+|  What is the space complexity of the palindrome_check method? Provide justification.	|   	|
+|  What is the time complexity of the encode_repeating method? Provide justification.	|   	|
+|  What is the space complexity of the encode_repeating method? Provide justification.	|   	|
