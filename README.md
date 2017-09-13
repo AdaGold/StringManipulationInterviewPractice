@@ -16,7 +16,7 @@ Design and implement a method for each of the following. Do not use Ruby provide
 4. Design and implement a method to check if the input string is a palindrome. Return true if the string is a palindrome. Return false otherwise.
    - **Note**: Palindrome is a word, phrase or sentence that reads the same backwards as forwards. e.g. "madam"
    - [Optional challenge] Make the method ignore white spaces. e.g. Make it so that the method will return true for "nurses run"
-5. Design and implement a method that updates the string by replacing consecutive repeating characters with a number representing the frequncy. The replacement is done only if the string length will get reduced by the process.
+5. [Optional Challenge Question] Design and implement a method that updates the string by replacing consecutive repeating characters with a number representing the frequncy. The replacement is done only if the string length will get reduced by the process. In addition to `.length`, you may use `.slice!` to implement this method.
    - e.g "aaabbbbbcccc" will get replace to "a3b5c4", since a is repeated 3 times, b is repeated 5 times and c is repeated 4 times
    - "xxxyttttgeee" will get replaced with "x3yt4ge3". 'y' and 'g' do not get replaced by "y1" and "g1" since that will increase the length.
    - "ddbbfffgjjjj" will get replaced with "ddbbf3gj4". "dd" and "bb" do not get replaced since the length will remain the same with "d1" and "b1". "g" does not get replaced with "g1" since that will increase the length.
