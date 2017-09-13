@@ -71,22 +71,23 @@ puts "BUG: empty is not a palindrome and should return false" if palindrome_chec
 # puts "BUG: 'nurses run' is a palindrome and should return true" if palindrome_check(phrase) != true
 puts "Palindrome test complete."
 
-puts "Test 5: Encode test"
-test1 = "aaabbbbbcccc"
-encode_repeating(test1)
-if test1 != "a3b5c4"
-  puts "BUG! 'aaabbbbbcccc' should get encoded to 'a3b5c4', not '#{test1}'"
-end
-
-test2 = "xxxyttttgeee"
-encode_repeating(test2)
-if test2 != "x3yt4ge3"
-  puts "BUG! 'xxxyttttgeee' should get encoded to 'x3yt4ge3', not '#{test2}'"
-end
-
-test3 = "ddbbfffgjjjj"
-encode_repeating(test3)
-if test3 != "ddbbf3gj4"
-  puts "BUG! 'ddbbfffgjjjj' should get encoded to 'ddbbf3gj4', not '#{test3}'"
-end
-puts "Encode test complete."
+# Optional Question #5
+# puts "Test 5: Encode test"
+# test1 = "aaabbbbbcccc"
+# encode_repeating(test1)
+# if test1 != "a3b5c4"
+#   puts "BUG! 'aaabbbbbcccc' should get encoded to 'a3b5c4', not '#{test1}'"
+# end
+#
+# test2 = "xxxyttttgeee"
+# encode_repeating(test2)
+# if test2 != "x3yt4ge3"
+#   puts "BUG! 'xxxyttttgeee' should get encoded to 'x3yt4ge3', not '#{test2}'"
+# end
+#
+# test3 = "ddbbfffgjjjj"
+# encode_repeating(test3)
+# if test3 != "ddbbf3gj4"
+#   puts "BUG! 'ddbbfffgjjjj' should get encoded to 'ddbbf3gj4', not '#{test3}'"
+# end
+# puts "Encode test complete."
